@@ -1,0 +1,104 @@
+D:\uni\term6\Data base\School-Poroje\School\School\bin\Debug\School.exe.config
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.logIn.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.Properties.Resources.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.csproj.GenerateResource.Cache
+D:\uni\term6\Data base\School-Poroje\School\School\bin\Debug\School.exe
+D:\uni\term6\Data base\School-Poroje\School\School\bin\Debug\School.pdb
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.exe
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.pdb
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.Admin.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.DabirMenu.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.StudentMain.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.editStudent.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.editTeacher.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newStudent.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newTeacher.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.changePassword.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.classMember.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newUser.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.editPointTeacher.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.pointTeacher.resources
+D:\uni\term6\Data base\School-Poroje\School\School\bin\Debug\School.mdf
+D:\uni\term6\Data base\School-Poroje\School\School\bin\Debug\School_log.ldf
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayeshDaneshAmuz.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayesheDabiran.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.DeleteStudent.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.searchStudents.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.DeleteDabir.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.searchTeacher.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.Users.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.helpform.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newClass.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.editStudentForm.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayash_nomarat.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.changePassAdmin.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.editParents.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newParents.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newLesson.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newGroupDarCi.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayeshDorous.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayeshparents.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.studentEditParent.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.MeetingEdit.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.MeetingRegister.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayeshMeeting.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.dabirEditDabir.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.lessonChoose.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.chooseDabirLesson.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.karname.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.ShowLessonDabir.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.newExam.resources
+D:\uni\term6\Data base\School-Poroje\School\School\obj\Debug\School.namayesheExams.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\bin\Debug\School.exe.config
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.exe
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.pdb
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\bin\Debug\School.mdf
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\bin\Debug\School_log.ldf
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\bin\Debug\School.exe
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\bin\Debug\School.pdb
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.Admin.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.changePassAdmin.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.changePassword.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.chooseDabirLesson.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.ClassMember.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.dabirEditDabir.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.DabirMenu.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.DeleteDabir.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.DeleteStudent.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.editParents.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.editPointTeacher.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.editStudent.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.editTeacher.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.helpform.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.karname.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.lessonChoose.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.logIn.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.MeetingEdit.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.MeetingRegister.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayash_nomarat.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayeshDaneshAmuz.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayesheDabiran.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayesheExams.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayeshMeeting.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayeshparents.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newClass.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newExam.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newParents.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newStudent.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newTeacher.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newUser.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.pointTeacher.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.Properties.Resources.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.searchStudents.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.searchTeacher.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.editStudentForm.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.ShowLessonDabir.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.studentEditParent.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.StudentMain.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.Users.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newLesson.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.newGroupDarCi.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.namayeshDorous.resources
+D:\uni\term 6\Data base\Final\School-Poroje\School\School\obj\Debug\School.csproj.GenerateResource.Cache

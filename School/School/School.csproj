@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{793B1D9E-8049-46D8-B601-3E95B164FE90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>School</RootNamespace>
+    <AssemblyName>School</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changePassAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changePassAdmin.Designer.cs">
+      <DependentUpon>changePassAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changePassword.Designer.cs">
+      <DependentUpon>changePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chooseDabirLesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chooseDabirLesson.Designer.cs">
+      <DependentUpon>chooseDabirLesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassMember.Designer.cs">
+      <DependentUpon>ClassMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dabirEditDabir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dabirEditDabir.Designer.cs">
+      <DependentUpon>dabirEditDabir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DabirMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DabirMenu.Designer.cs">
+      <DependentUpon>DabirMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteDabir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteDabir.Designer.cs">
+      <DependentUpon>DeleteDabir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteStudent.Designer.cs">
+      <DependentUpon>DeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editParents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editParents.Designer.cs">
+      <DependentUpon>editParents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPointTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPointTeacher.Designer.cs">
+      <DependentUpon>editPointTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editStudent.Designer.cs">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editTeacher.Designer.cs">
+      <DependentUpon>editTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpform.Designer.cs">
+      <DependentUpon>helpform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="karname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="karname.Designer.cs">
+      <DependentUpon>karname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lessonChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lessonChoose.Designer.cs">
+      <DependentUpon>lessonChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadTable.cs" />
+    <Compile Include="logIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logIn.Designer.cs">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeetingEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeetingEdit.Designer.cs">
+      <DependentUpon>MeetingEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeetingRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeetingRegister.Designer.cs">
+      <DependentUpon>MeetingRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayash nomarat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayash nomarat.Designer.cs">
+      <DependentUpon>namayash nomarat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayeshe danesh amuzan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayeshe danesh amuzan.Designer.cs">
+      <DependentUpon>namayeshe danesh amuzan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayesheDabiran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayesheDabiran.Designer.cs">
+      <DependentUpon>namayesheDabiran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayesheExams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayesheExams.Designer.cs">
+      <DependentUpon>namayesheExams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayeshMeeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayeshMeeting.Designer.cs">
+      <DependentUpon>namayeshMeeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayeshparents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayeshparents.Designer.cs">
+      <DependentUpon>namayeshparents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newClass.Designer.cs">
+      <DependentUpon>newClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newExam.Designer.cs">
+      <DependentUpon>newExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newParents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newParents.Designer.cs">
+      <DependentUpon>newParents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newStudent.Designer.cs">
+      <DependentUpon>newStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTeacher.Designer.cs">
+      <DependentUpon>newTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newUser.Designer.cs">
+      <DependentUpon>newUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pointTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pointTeacher.Designer.cs">
+      <DependentUpon>pointTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saveData.cs" />
+    <Compile Include="searchStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchStudents.Designer.cs">
+      <DependentUpon>searchStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchTeacher.Designer.cs">
+      <DependentUpon>searchTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editStudentForm.Designer.cs">
+      <DependentUpon>editStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowLessonDabir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowLessonDabir.Designer.cs">
+      <DependentUpon>ShowLessonDabir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentEditParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentEditParent.Designer.cs">
+      <DependentUpon>studentEditParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentMain.Designer.cs">
+      <DependentUpon>StudentMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newLesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newLesson.Designer.cs">
+      <DependentUpon>newLesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newGroupDarCi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newGroupDarCi.Designer.cs">
+      <DependentUpon>newGroupDarCi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namayeshDorous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="namayeshDorous.Designer.cs">
+      <DependentUpon>namayeshDorous.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changePassAdmin.resx">
+      <DependentUpon>changePassAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changePassword.resx">
+      <DependentUpon>changePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chooseDabirLesson.resx">
+      <DependentUpon>chooseDabirLesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassMember.resx">
+      <DependentUpon>ClassMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dabirEditDabir.resx">
+      <DependentUpon>dabirEditDabir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DabirMenu.resx">
+      <DependentUpon>DabirMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteDabir.resx">
+      <DependentUpon>DeleteDabir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteStudent.resx">
+      <DependentUpon>DeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editParents.resx">
+      <DependentUpon>editParents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPointTeacher.resx">
+      <DependentUpon>editPointTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editStudent.resx">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editTeacher.resx">
+      <DependentUpon>editTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpform.resx">
+      <DependentUpon>helpform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="karname.resx">
+      <DependentUpon>karname.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lessonChoose.resx">
+      <DependentUpon>lessonChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logIn.resx">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeetingEdit.resx">
+      <DependentUpon>MeetingEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeetingRegister.resx">
+      <DependentUpon>MeetingRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayash nomarat.resx">
+      <DependentUpon>namayash nomarat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayeshe danesh amuzan.resx">
+      <DependentUpon>namayeshe danesh amuzan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayesheDabiran.resx">
+      <DependentUpon>namayesheDabiran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayesheExams.resx">
+      <DependentUpon>namayesheExams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayeshMeeting.resx">
+      <DependentUpon>namayeshMeeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayeshparents.resx">
+      <DependentUpon>namayeshparents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newClass.resx">
+      <DependentUpon>newClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newExam.resx">
+      <DependentUpon>newExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newParents.resx">
+      <DependentUpon>newParents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newStudent.resx">
+      <DependentUpon>newStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTeacher.resx">
+      <DependentUpon>newTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newUser.resx">
+      <DependentUpon>newUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pointTeacher.resx">
+      <DependentUpon>pointTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="searchStudents.resx">
+      <DependentUpon>searchStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchTeacher.resx">
+      <DependentUpon>searchTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editStudentForm.resx">
+      <DependentUpon>editStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowLessonDabir.resx">
+      <DependentUpon>ShowLessonDabir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentEditParent.resx">
+      <DependentUpon>studentEditParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentMain.resx">
+      <DependentUpon>StudentMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newLesson.resx">
+      <DependentUpon>newLesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newGroupDarCi.resx">
+      <DependentUpon>newGroupDarCi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="namayeshDorous.resx">
+      <DependentUpon>namayeshDorous.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="School.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="School_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>School.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
